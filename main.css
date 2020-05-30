@@ -50,3 +50,44 @@ header,
   border-radius: 50%;
   background-size: contain;
 }
+
+/* NEWS */
+.news {
+  background: url(./assets/bg-news.png) no-repeat 0;
+  background-size: cover;
+  font-family: 'Source Sans Pro';
+  padding: 40px 24px;
+  color: #ffffff;
+}
+.news__title {
+  text-transform: uppercase;
+}
+.news__title,
+.news__cta {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.news__separator {
+  margin: 40px 0;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 0;
+}
+.news__description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.news__button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  padding: 14px 38px;
+  background-color: #fa6980;
+  border-radius: 6px;
+}
