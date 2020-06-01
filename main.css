@@ -387,6 +387,60 @@ footer {
   cursor: pointer;
 }
 
+/* MOBILE-SIDEMENU */
+.mobile-sidemenu {
+  background-color: #f6f8f9;
+  width: 290px;
+  box-shadow: 0 0 60px #00000099;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -150%;
+  z-index: 1000;
+}
+.mobile-sidemenu.active {
+  left: 0;
+}
+.mobile-sidemenu__header {
+  padding: 40px;
+}
+.mobile-sidemenu__header > .logo {
+  order: unset;
+}
+.mobile-sidemenu__close {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background-size: contain;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTIgNDkyIiB3aWR0aD0iMTNweCIgaGVpZ2h0PSIxM3B4Ij48cGF0aCBmaWxsPSIjMzQzNjM4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMDAuMTg4IDI0Nkw0ODQuMTQgNjIuMDRjNS4wNi01LjA2NCA3Ljg1Mi0xMS44MiA3Ljg2LTE5LjAyNCAwLTcuMjA4LTIuNzkyLTEzLjk3Mi03Ljg2LTE5LjAyOEw0NjguMDIgNy44NzJDNDYyLjk1MiAyLjc5NiA0NTYuMTk2LjAxNiA0NDguOTg0LjAxNmMtNy4yIDAtMTMuOTU2IDIuNzgtMTkuMDI0IDcuODU2TDI0Ni4wMDggMTkxLjgyIDYyLjA0OCA3Ljg3MkM1Ni45ODggMi43OTYgNTAuMjI4LjAxNiA0My4wMi4wMTZjLTcuMiAwLTEzLjk2IDIuNzgtMTkuMDIgNy44NTZMNy44NzIgMjMuOTg4Yy0xMC40OTYgMTAuNDk2LTEwLjQ5NiAyNy41NjggMCAzOC4wNTJMMTkxLjgyOCAyNDYgNy44NzIgNDI5Ljk1MkMyLjgwOCA0MzUuMDI0LjAyIDQ0MS43OC4wMiA0NDguOTg0YzAgNy4yMDQgMi43ODggMTMuOTYgNy44NTIgMTkuMDI4bDE2LjEyNCAxNi4xMTZjNS4wNiA1LjA3MiAxMS44MjQgNy44NTYgMTkuMDIgNy44NTYgNy4yMDggMCAxMy45NjgtMi43ODQgMTkuMDI4LTcuODU2bDE4My45Ni0xODMuOTUyIDE4My45NTIgMTgzLjk1MmM1LjA2OCA1LjA3MiAxMS44MjQgNy44NTYgMTkuMDI0IDcuODU2aC4wMDhjNy4yMDQgMCAxMy45Ni0yLjc4NCAxOS4wMjgtNy44NTZsMTYuMTItMTYuMTE2YzUuMDYtNS4wNjQgNy44NTItMTEuODI0IDcuODUyLTE5LjAyOCAwLTcuMjA0LTIuNzkyLTEzLjk2LTcuODUyLTE5LjAyOEwzMDAuMTg4IDI0NnoiLz48L3N2Zz4=')
+    no-repeat 0;
+  cursor: pointer;
+}
+.mobile__menu {
+  margin-top: 60px;
+  padding: 0 60px;
+}
+.mobile__menu-item--title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+.mobile__menu-item--icon.user-account {
+  order: unset;
+}
+.mobile-sidemenu__footer {
+  background-color: #a6adb4;
+  padding: 30px 40px;
+}
+.mobile-sidemenu__footer--item {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  color: #f6f8f9;
+  margin-bottom: 20px;
+}
+
 /* MEDIA-QUERIES */
 @media all and (min-width: 480px) {
   .arrows:before {
