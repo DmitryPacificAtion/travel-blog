@@ -335,12 +335,18 @@ footer {
 }
 .footer-inner {
   max-width: 1024px;
+  flex-direction: column;
   margin: 0 auto;
+}
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
 }
 .footer-menu {
   font-size: 13px;
   font-weight: bold;
   color: #cbd0d3;
+  margin-bottom: 20px;
 }
 .footer-subscribe {
   color: #cbd0d3;
@@ -379,6 +385,10 @@ footer {
   font-size: 11px;
   text-align: left;
   margin-top: 16px;
+}
+.socials {
+  width: 50%;
+  margin: 0 auto;
 }
 .socials__icon {
   width: 16px;
@@ -475,5 +485,19 @@ footer {
     margin-left: 48px;
     width: 30px;
     height: 30px;
+  }
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .footer-menu {
+    margin-bottom: 0;
+  }
+  .socials {
+    width: auto;
   }
 }
