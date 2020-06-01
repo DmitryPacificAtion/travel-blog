@@ -443,6 +443,9 @@ footer {
   background-color: #a6adb4;
   padding: 30px 40px;
 }
+.mobile-sidemenu__footer .socials {
+  width: auto;
+}
 .mobile-sidemenu__footer--item {
   text-transform: uppercase;
   font-size: 11px;
